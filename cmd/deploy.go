@@ -37,8 +37,10 @@ set of parameters.`,
 			log.Println("Cannot specify '-o' output in custom flags")
 			return
 		}
+
+		version, _ := uuid.NewV4()
 		functionName := args[0]
-		targetDir := "./target/" + uuid.NewV4().String() + "/"
+		targetDir := "./target/" + version.String() + "/"
 		index, err := t.GenerateIndex(t.IndexTemplateData{
 			FunctionName: functionName,
 			TargetDir:    targetDir,
