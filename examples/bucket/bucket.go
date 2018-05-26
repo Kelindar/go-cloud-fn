@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/MartinSahlen/go-cloud-fn/shim/v2"
+	"github.com/kelindar/go-cloud-fn/shim/v2"
 )
 
 func bucketHandlerFunc(object shimV2.Object) {

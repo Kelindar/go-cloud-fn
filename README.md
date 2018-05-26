@@ -1,7 +1,7 @@
 # go-cloud-fn
 `go-cloud-fn` is a tool that allows you to write and deploy [Google cloud functions](https://cloud.google.com/functions/) in pure go.
 
-Run `go get github.com/MartinSahlen/go-cloud-fn` to get it.
+Run `go get github.com/kelindar/go-cloud-fn` to get it.
 You need to have [Google cloud SDK](https://cloud.google.com/sdk/downloads) installed, as well as
 the [Cloud functions emulator](https://github.com/GoogleCloudPlatform/cloud-functions-emulator/).
 
@@ -16,7 +16,7 @@ import (
 	"os"
 
 	"github.com/MartinSahlen/cloud-goa/app"
-	"github.com/MartinSahlen/go-cloud-fn/shim"
+	"github.com/kelindar/go-cloud-fn/shim"
 	"github.com/go-kit/kit/log"
 	"github.com/goadesign/goa"
 	"github.com/goadesign/goa/logging/kit"
@@ -49,7 +49,7 @@ package main
 import (
 	"log"
 
-	"github.com/MartinSahlen/go-cloud-fn/shim"
+	"github.com/kelindar/go-cloud-fn/shim"
 	"google.golang.org/api/storage/v1beta2"
 )
 
@@ -74,7 +74,7 @@ package main
 import (
 	"log"
 
-	"github.com/MartinSahlen/go-cloud-fn/shim"
+	"github.com/kelindar/go-cloud-fn/shim"
 	pubsub "google.golang.org/api/pubsub/v1beta2"
 )
 

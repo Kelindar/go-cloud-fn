@@ -9,7 +9,7 @@ import (
 
 	"cloud.google.com/go/bigquery"
 
-	"github.com/MartinSahlen/go-cloud-fn/shim"
+	"github.com/kelindar/go-cloud-fn/shim"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

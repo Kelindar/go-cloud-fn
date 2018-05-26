@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/MartinSahlen/go-cloud-fn/cmd"
+import "github.com/kelindar/go-cloud-fn/cmd"
 
 func main() {
 	cmd.Execute()
